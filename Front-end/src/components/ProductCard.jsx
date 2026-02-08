@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductCard = ({ product, addToCart }) => (
+const Productcard = ({ product, addToCart }) => (
   
   <div className="border p-4 rounded">
     
@@ -19,4 +19,5 @@ const ProductCard = ({ product, addToCart }) => (
 );
 
 
-export default ProductCard;
+export default Productcard;
+
