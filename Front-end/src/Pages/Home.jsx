@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import ProductCard from "../components/Productcard";
+import ProductCard from "../components/ProductCard";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -21,3 +21,4 @@ const Home = () => {
 };
 
 export default Home;
+
